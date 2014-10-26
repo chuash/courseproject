@@ -35,9 +35,9 @@
 12)	The dplyr package is being used.The selectedData dataset is first grouped by subject and activity before applying the mean function individually over the 79 sieved out feature variables to form a 2nd table. This 2nd table is then exported out to a text file "independentdataset.txt" using the write.table function which is delimited by tabs. This txt file is stored in the same folder as the R script source file folder.
 
 13) 	To read "independentdataset.txt" back into R, use these R scripts.
-	* data <- read.table("./independentdataset.txt", header = TRUE)
-		- make sure you set the R working directory to the same directory where "run_analysis.R" is.  
- 	* View(data)
+* data <- read.table("./independentdataset.txt", header = TRUE)
+	- make sure you set the R working directory to the same directory where "run_analysis.R" is.  
+* View(data)
 
 (Quoted from https://class.coursera.org/getdata-008/forum/thread?thread_id=24#comment-436) 
 
