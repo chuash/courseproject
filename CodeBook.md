@@ -75,7 +75,6 @@ Notes:
 
 ##Processed dataset information 
 ===============================
-
 4)	This pertains to the tidy dataset "independentdataset.txt" (a 180 x 81 dataset).To get this dataset, the raw training and testing datasets are merged into a single dataset and then the variables depicting measurements on the mean & standard deviation for each measurement were sieved out. Refer to README.md para. 9 for an explanation of the choice of the subset and how the sieving is done. This subset table has 81 columns, the first two columns being the subject and activity columns. The remaining 79 columns are the sieved out feature variables containing mean and standard deviation for each measurement. As the project had asked for appropriate and descriptive names for the feature variables, the original feature variable names in the features.txt file in the raw dataset had been processed and transformed. Refer to README.md para.11 for a description of how the names had been processed.The 81 column names are as follows:
 
 ###ID variables (columns 1,2)
@@ -104,110 +103,110 @@ The feature variables are as follows:
 * "timebodyaccelerationjerkstandarddeviationx"/"timebodyaccelerationjerkstandarddeviationy"/"timebodyaccelerationjerkstandarddeviationz"
 	- correspond to tBodyAccJerk-std()-XYZ(original feature variable names)
 
-* "timebodygyroscopemeanx"/"timebodygyroscopemeany"/"timebodygyroscopemeanz"
+* "timebodygyroscopemeanx"/"timebodygyroscopemeany"/"timebodygyroscopemeanz" 
 	- correspond to tBodyGyro-mean()-XYZ(original feature variable names)
 
-* "timebodygyroscopestandarddeviationx"/"timebodygyroscopestandarddeviationy"/"timebodygyroscopestandarddeviationz"
-	-correspond to tBodyGyro-std()-XYZ(original feature variable names)
+* "timebodygyroscopestandarddeviationx"/"timebodygyroscopestandarddeviationy"/"timebodygyroscopestandarddeviationz" 
+	- correspond to tBodyGyro-std()-XYZ(original feature variable names)
 
-* "timebodygyroscopejerkmeanx"/"timebodygyroscopejerkmeany"/"timebodygyroscopejerkmeanz"
-	-correspond to tBodyGyroJerk-mean()-XYZ(original feature variable names)
+* "timebodygyroscopejerkmeanx"/"timebodygyroscopejerkmeany"/"timebodygyroscopejerkmeanz" 
+	- correspond to tBodyGyroJerk-mean()-XYZ(original feature variable names)
 
 * "timebodygyroscopejerkstandarddeviationx"/"timebodygyroscopejerkstandarddeviationy"/"timebodygyroscopejerkstandarddeviationz"
-	-correspond to tBodyGyroJerk-std()-XYZ(original feature variable names)
+	- correspond to tBodyGyroJerk-std()-XYZ(original feature variable names)
 
 * "timebodyaccelerationmagnitudemean"
-	-correspond to tBodyAccMag-mean()(original feature variable names)
+	- correspond to tBodyAccMag-mean()(original feature variable names)
 
 * "timebodyaccelerationmagnitudestandarddeviation"
-	-correspond to tBodyAccMag-std()(original feature variable names)
+	- correspond to tBodyAccMag-std()(original feature variable names)
 
 * "timegravityaccelerationmagnitudemean"
-	-correspond to tGravityAccMag-mean()(original feature variable names)
+	- correspond to tGravityAccMag-mean()(original feature variable names)
 
 * "timegravityaccelerationmagnitudestandarddeviation"
-	-correspond to tGravityAccMag-std()(original feature variable names)
+	- correspond to tGravityAccMag-std()(original feature variable names)
 
 * "timebodyaccelerationjerkmagnitudemean"
-	-correspond to tBodyAccJerkMag-mean()(original feature variable names)
+	- correspond to tBodyAccJerkMag-mean()(original feature variable names)
 
 * "timebodyaccelerationjerkmagnitudestandarddeviation"
-	-correspond to tBodyAccJerkMag-std()(original feature variable names)
+	- correspond to tBodyAccJerkMag-std()(original feature variable names)
 
 * "timebodygyroscopemagnitudemean"
-	-correspond to tBodyGyroMag-mean()(original feature variable names)
+	- correspond to tBodyGyroMag-mean()(original feature variable names)
 
 * "timebodygyroscopemagnitudestandarddeviation"
-	-correspond to tBodyGyroMag-std()(original feature variable names)
+	- correspond to tBodyGyroMag-std()(original feature variable names)
 
 * "timebodygyroscopejerkmagnitudemean"
-	-correspond to tBodyGyroJerkMag-mean()(original feature variable names)
+	- correspond to tBodyGyroJerkMag-mean()(original feature variable names)
  
 * "timebodygyroscopejerkmagnitudestandarddeviation"
-	-correspond to tBodyGyroJerkMag-std()(original feature variable names)
+	- correspond to tBodyGyroJerkMag-std()(original feature variable names)
 
 * "frequencybodyaccelerationmeanx"/"frequencybodyaccelerationmeany"/"frequencybodyaccelerationmeanz"
-	-correspond to fBodyAcc-mean()-XYZ(original feature variable names)
+	- correspond to fBodyAcc-mean()-XYZ(original feature variable names)
 
 * "frequencybodyaccelerationstandarddeviationx"/"frequencybodyaccelerationstandarddeviationy"/"frequencybodyaccelerationstandarddeviationz"
-	-correspond to fBodyAcc-std()-XYZ(original feature variable names)
+	- correspond to fBodyAcc-std()-XYZ(original feature variable names)
 
 * "frequencybodyaccelerationmeanfrequencyx"/"frequencybodyaccelerationmeanfrequencyy"/"frequencybodyaccelerationmeanfrequencyz"
-	-correspond to fBodyAcc-meanFreq()-XYZ(original feature variable names)
+	- correspond to fBodyAcc-meanFreq()-XYZ(original feature variable names)
 
 * "frequencybodyaccelerationjerkmeanx"/"frequencybodyaccelerationjerkmeany"/"frequencybodyaccelerationjerkmeanz"
-	-correspond to fBodyAccJerk-mean()-XYZ(original feature variable names)
+	- correspond to fBodyAccJerk-mean()-XYZ(original feature variable names)
 
 * "frequencybodyaccelerationjerkstandarddeviationx"/"frequencybodyaccelerationjerkstandarddeviationy"/"frequencybodyaccelerationjerkstandarddeviationz"
-	-correspond to fBodyAccJerk-std()-XYZ(original feature variable names)
+	- correspond to fBodyAccJerk-std()-XYZ(original feature variable names)
 
 * "frequencybodyaccelerationjerkmeanfrequencyx"/"frequencybodyaccelerationjerkmeanfrequencyy"/"frequencybodyaccelerationjerkmeanfrequencyz"
-	-correspond to fBodyAccJerk-meanFreq()-XYZ(original feature variable names)
+	- correspond to fBodyAccJerk-meanFreq()-XYZ(original feature variable names)
 
 * "frequencybodygyroscopemeanx"/"frequencybodygyroscopemeany"/"frequencybodygyroscopemeanz"
-	-correspond to fBodyGyro-mean()-XYZ(original feature variable names)
+	- correspond to fBodyGyro-mean()-XYZ(original feature variable names)
 
 * "frequencybodygyroscopestandarddeviationx"/"frequencybodygyroscopestandarddeviationy"/"frequencybodygyroscopestandarddeviationz"
-	-correspond to fBodyGyro-std()-XYZ(original feature variable names)
+	- correspond to fBodyGyro-std()-XYZ(original feature variable names)
 
 * "frequencybodygyroscopemeanfrequencyx"/"frequencybodygyroscopemeanfrequencyy"/"frequencybodygyroscopemeanfrequencyz"
-	-correspond to fBodyGyro-meanFreq()-XYZ(original feature variable names)
+	- correspond to fBodyGyro-meanFreq()-XYZ(original feature variable names)
 
 * "frequencybodyaccelerationmagnitudemean"
-	-correspond to fBodyAccMag-mean()(original feature variable names)
+	- correspond to fBodyAccMag-mean()(original feature variable names)
 
 * "frequencybodyaccelerationmagnitudestandarddeviation"
-	-correspond to fBodyAccMag-std()(original feature variable names)
+	- correspond to fBodyAccMag-std()(original feature variable names)
 
 * "frequencybodyaccelerationmagnitudemeanfrequency"
-	-correspond to fBodyAccMag-meanFreq()(original feature variable names)
+	- correspond to fBodyAccMag-meanFreq()(original feature variable names)
 
 * "frequencybodyaccelerationjerkmagnitudemean"
-	-correspond to fBodyBodyAccJerkMag-mean()(original feature variable names). Note: the original name has an error and has been cleaned up. Refer to README.md para.11
+	- correspond to fBodyBodyAccJerkMag-mean()(original feature variable names). Note: the original name has an error and has been cleaned up. Refer to README.md 		para.11
 
 * "frequencybodyaccelerationjerkmagnitudestandarddeviation"
-	-correspond to fBodyBodyAccJerkMag-std()(original feature variable names).Note: the original name has an error and has been cleaned up. Refer to README.md para.11
+	- correspond to fBodyBodyAccJerkMag-std()(original feature variable names).Note: the original name has an error and has been cleaned up. Refer to README.md 		para.11
 
 * "frequencybodyaccelerationjerkmagnitudemeanfrequency"
-	-correspond to fBodyBodyAccJerkMag-meanFreq()(original feature variable names).Note: the original name has an error and has been cleaned up. Refer to README.md para.11
+	- correspond to fBodyBodyAccJerkMag-meanFreq()(original feature variable names).Note: the original name has an error and has been cleaned up. Refer to 	README.md para.11
 
 * "frequencybodygyroscopemagnitudemean"
-	-correspond to fBodyBodyGyroMag-mean()(original feature variable names).Note: the original name has an error and has been cleaned up. Refer to README.md para.11
+	- correspond to fBodyBodyGyroMag-mean()(original feature variable names).Note: the original name has an error and has been cleaned up. Refer to README.md 		para.11
 
 * "frequencybodygyroscopemagnitudestandarddeviation"	
-	-correspond to fBodyBodyGyroMag-std()(original feature variable names).Note: the original name has an error and has been cleaned up. Refer to README.md para.11
+	- correspond to fBodyBodyGyroMag-std()(original feature variable names).Note: the original name has an error and has been cleaned up. Refer to README.md 	para.11
 
 * "frequencybodygyroscopemagnitudemeanfrequency"
-	-correspond to fBodyBodyGyroMag-meanFreq()(original feature variable names).Note: the original name has an error and has been cleaned up. Refer to README.md para.11
+	- correspond to fBodyBodyGyroMag-meanFreq()(original feature variable names).Note: the original name has an error and has been cleaned up. Refer to README.md 		para.11
 
 * "frequencybodygyroscopejerkmagnitudemean"
-	-correspond to fBodyBodyGyroJerkMag-mean()(original feature variable names).Note: the original name has an error and has been cleaned up. Refer to README.md para.11
+	- correspond to fBodyBodyGyroJerkMag-mean()(original feature variable names).Note: the original name has an error and has been cleaned up. Refer to README.md 		para.11
 
 * "frequencybodygyroscopejerkmagnitudestandarddeviation"
-	-correspond to fBodyBodyGyroJerkMag-std()(original feature variable names).Note: the original name has an error and has been cleaned up. Refer to README.md para.11
+	- correspond to fBodyBodyGyroJerkMag-std()(original feature variable names).Note: the original name has an error and has been cleaned up. Refer to README.md 		para.11
 
 * "frequencybodygyroscopejerkmagnitudemeanfrequency"
-	-correspond to fBodyBodyGyroJerkMag-meanFreq()(original feature variable names).Note: the original name has an error and has been cleaned up. Refer to README.md para.11
+	- correspond to fBodyBodyGyroJerkMag-meanFreq()(original feature variable names).Note: the original name has an error and has been cleaned up. Refer to 		README.md para.11
 
 
 
